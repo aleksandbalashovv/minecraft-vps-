@@ -56,24 +56,24 @@ minecraft-server/
 Критичный объект системы — data/world.
 Остальные файлы являются производными.
 
-## Жизненный цикл сервера
-# Запуск сервера 
+# Жизненный цикл сервера
+## Запуск сервера 
 cd ~/minecraft-server
 docker-compose up -d
 
-# Остановка 
+## Остановка 
 docker-compose down
 
-# Перезагрузка 
+## Перезагрузка 
 docker-compose restart
 
-# Проверка состояния 
+## Проверка состояния 
 docker ps
 docker logs --tail=50 minecraft
 Ожидаемый результат 
 Done (...)! For help, type "help"
 
-# Модель доступа 
+## Модель доступа 
 Осознанный офлайн 
 online-mode=false
 white-list=true

@@ -1,5 +1,5 @@
-# minecraft-vps-
-##Minecraft Server Infrastructure
+# minecraft-vps-(Step2)
+## Minecraft Server Infrastructure
 ---------------------------------
 Приватный Minecraft-сервер, развёрнутый на VPS с использованием Docker.
 Репозиторий фиксирует архитектуру, решения и практики эксплуатации сервиса.

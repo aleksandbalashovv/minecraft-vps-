@@ -39,6 +39,7 @@ Docker image	itzg/minecraft-server
 
 ## Структура проекта
 --------------------
+```text
 minecraft-server/
 ├── docker-compose.yml
 ├── data/
@@ -52,6 +53,7 @@ minecraft-server/
 ├── logs/
 │   └── backup.log            # Логи бэкапов
 └── CONTRACT.md               # Границы ролей и ответственности
+```
 
 Критичный объект системы — data/world.
 Остальные файлы являются производными.
